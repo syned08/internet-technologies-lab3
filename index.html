@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Laba 3 DH.</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header" id="header"></header>
+
+    <main class="main-form">
+      <div class="title"> 
+        <h1>Лабораторная работа №3</h1>
+        <p>Выполнил Гриценюк Денис</p>
+      </div>
+
+      <div class="gallery">
+        <label for="interval">Введите время задержки(миллисекунды):</label>
+        <input type="number" placeholder="milliseconds" id="interval" name="interval" min="100" value="300">
+        <button type="submit" class="btn" id="start-btn">Задать</button>
+        <h2>Галерея изображений</h2>
+        <img src="https://images.unsplash.com/photo-1599496287905-d48f26f9e7a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Church ceiling" class="image" id="image">
+        <button type="submit" class="btn stop-btn" id="stop-btn">Остановить смену изображений</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html> 
